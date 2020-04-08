@@ -27,7 +27,7 @@ export default class SettingsUpdatesForm extends Component {
         <div>
           <div className="p2 bg-green bordered rounded border-success flex flex-row align-center justify-between">
             <span className="text-white text-bold">
-              {jt`Metabase ${formatVersion(latestVersion)} is available.`}{" "}
+              {jt`Certilytics ${formatVersion(latestVersion)} is available.`}{" "}
               {jt`You're running ${formatVersion(currentVersion)}`}
             </span>
             <a
